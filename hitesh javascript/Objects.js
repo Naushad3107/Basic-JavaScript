@@ -74,6 +74,9 @@ const course = {
 }
 
 // course.courseInstructor we can use destructor to use it convienintly
+// curly braces can also be renames as per requirement
 
-const {courseInstructor} = course
-console.log(courseInstructor);
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+//JSON is an api which fetches the data from website to the developer
